@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import "./Smurf.css";
 
 import Smurf from './Smurf';
@@ -7,7 +7,7 @@ const Smurfs = props => {
   return (
     <div className="Smurfs">
       <h1>Smurf Village</h1>
-      <ui>
+      <ul>
         {props.smurfs.map(smurf => {
           return (
             <Smurf
@@ -20,7 +20,7 @@ const Smurfs = props => {
             />
           );
         })}
-      </ui>
+      </ul>
     </div>
   );
 }
