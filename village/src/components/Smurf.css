@@ -12,7 +12,7 @@ ul {
     margin-bottom: 25px;
     border: 1px solid black;
     border-radius: 10px;
-    background-color: rbga(0, 0, 0, 0, 3);
+    background-color: rgba(0, 0, 0, 0, 3);
     color: white;
     display: flex;
     flex-direction: column;
