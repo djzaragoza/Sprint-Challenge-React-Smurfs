@@ -33,9 +33,26 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
     - client-side-routing = it is basically the same as server-side except that it is run in the browser.  It also uses AJAX requests 
     - server-side-routing = will only request the data needed; no more, no less.  Search engines are optimized for webpages that come from the server.
 - [ ] What does HTTP stand for?
+
+    - HyperText Transfer Protocol
 - [ ] What does CRUD stand for?
+
+    -C = Create
+    -R = Retrieve
+    -U = Update
+    -D = Delete
+
 - [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+
+    - Create = PUT and POST
+    - Retrieve = GET
+    - Update = PUT
+    - Delete = DELETE
+
 - [ ] Mention three tools we can use to make AJAX requests.
+    - REST API
+    - Axios
+    - JQuery
 
 
 ## Project Set Up
