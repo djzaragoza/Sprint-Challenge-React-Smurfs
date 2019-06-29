@@ -22,7 +22,7 @@ class Smurf extends React.Component {
     return (
       <div className="Smurf">
         <h3>{this.props.name}</h3>
-        <strong>{this.props.height} tall </strong>
+        <strong>{this.props.height} tall</strong>
         <p>{this.props.age} smurf years old</p>
         <form>
           <button type="submit" onClick={this.deleteHelper}><i className="fal fa-trash"></i></button>

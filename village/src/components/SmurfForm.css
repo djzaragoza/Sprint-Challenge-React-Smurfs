@@ -23,7 +23,7 @@ form {
     align-items: center;
 }
 
-form-input {
+form input {
     width: 100%;
     margin-bottom: 20px;
     padding: 5px 0;
@@ -35,11 +35,11 @@ form-input {
     color: #88CCFF;
 }
 
-form-input:focus {
+form input:focus {
     outline: none;
 }
 
-form-input::placeholder {
+form input::placeholder {
     color: white;
 }
 
@@ -60,3 +60,4 @@ form button:hover {
     color: #99CCFF;
     transition: 0.2s;
 }
+
