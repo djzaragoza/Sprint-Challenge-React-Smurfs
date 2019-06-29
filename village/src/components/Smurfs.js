@@ -25,7 +25,7 @@ const Smurfs = props => {
   );
 }
 
-Smurf.defaultProps = {
+Smurfs.defaultProps = {
  smurfs: [],
 };
 
