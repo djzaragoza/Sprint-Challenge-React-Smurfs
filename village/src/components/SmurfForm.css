@@ -48,7 +48,7 @@ form button {
     padding: 10px 0;
     font-size: 16px;
     text-transform: uppercase;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #88CCFF;
     color: white;
     font-weight: bold;
@@ -56,8 +56,8 @@ form button {
 }
 
 form button:hover {
-    background: white;
+    background: seashell;
     color: #99CCFF;
-    transition: 0.2s;
+    transition: 0.4s;
 }
 
